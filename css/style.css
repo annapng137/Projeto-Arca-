@@ -688,57 +688,38 @@ footer > p{
         padding:20px;
     }
 }
-.hero{
+main section:first-child{
     background:
-    linear-gradient(
-        rgba(0, 80, 45, 0.65),
-        rgba(0, 80, 45, 0.65)
-    ),
-    url("../img/cachorro-gato.jpg");
+    linear-gradient(rgba(0, 80, 45, 0.65), rgba(0, 80, 45, 0.65)),
+    url("../img/cachorro e gato.jpg");
 
     background-size: cover;
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
 
-    min-height: 85vh;
-    padding: 100px 80px;
+    min-height: 500px;
+    padding: 80px;
     color: white;
 }
-
-.hero h1{
-    max-width: 520px;
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.hero p{
-    max-width: 650px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-
-.hero-botoes{
-    display: flex;
-    gap: 12px;
-}
-
-.hero-botoes a{
-    text-decoration: none;
-    padding: 12px 28px;
+.btn-hero{
+    display: inline-block;
+    padding: 12px 25px;
     border-radius: 6px;
-    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
-.botao-claro{
+.branco{
     background: white;
     color: #00502d;
 }
 
-.botao-transparente{
+.transparente{
     background: transparent;
     color: white;
     border: 2px solid white;
 }
-}
+
 
 
