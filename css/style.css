@@ -698,7 +698,7 @@ main section:first-child{
         rgba(0, 80, 45, 0.75),
         rgba(0, 80, 45, 0.75)
     ),
-    url("../img/cachorro-e-gato.jpg");
+    url("/img/cachorro-gato.jpg");
 
     background-size: cover;
     background-position: center right;
