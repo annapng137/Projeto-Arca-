@@ -756,5 +756,42 @@ footer > p{
         margin-bottom: 12px;
     }
 }
+@media (max-width:768px){
+
+    main section:last-child{
+        padding: 20px 0;
+    }
+
+    main section:last-child h2{
+        font-size: 2.2rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    main section:last-child p{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    /* BOTÕES */
+    main section:last-child button{
+        display: block;
+
+        width: 100%;
+
+        max-width: 280px;
+
+        margin: 12px auto;
+
+        padding: 14px;
+
+        font-size: 1rem;
+    }
+
+    main section:last-child button a{
+        display: block;
+    }
+}
 
 
