@@ -688,38 +688,56 @@ footer > p{
         padding:20px;
     }
 }
-main section:first-child{
-    background:
-    linear-gradient(rgba(0, 80, 45, 0.65), rgba(0, 80, 45, 0.65)),
-    url("./img/cachorro-gato.jpg");
+.hero-home{
+    background-image:
+    linear-gradient(
+        rgba(0,90,50,0.45),
+        rgba(0,90,50,0.45)
+    ),
+    url("../img/cachorro-gato.jpg");
 
     background-size: cover;
-    background-position: center;
+
+    background-position: right center;
+
     background-repeat: no-repeat;
 
-    min-height: 500px;
+    min-height: 550px;
+
     padding: 80px;
+
     color: white;
 }
-.btn-hero{
-    display: inline-block;
-    padding: 12px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-right: 10px;
-    font-weight: bold;
+
+.hero-home button{
+    width:auto;
+
+    padding:12px 24px;
+
+    border-radius:8px;
+
+    margin-right:10px;
+
+    cursor:pointer;
+
+    background:white;
+
+    border:none;
 }
 
-.branco{
-    background: white;
-    color: #00502d;
+.hero-home button a{
+    text-decoration:none;
+    color:black;
 }
 
-.transparente{
-    background: transparent;
-    color: white;
-    border: 2px solid white;
+.hero-home button:last-child{
+    background:transparent;
+
+    border:2px solid white;
 }
 
+.hero-home button:last-child a{
+    color:white;
+}
 
 
