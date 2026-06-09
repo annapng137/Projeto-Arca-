@@ -177,4 +177,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
-const botaoConcluir = document.querySelector("#concluir"); if (botaoConcluir){ botaoConcluir.addEventListener("click", function(event){ event.preventDefault(); alert("Castração agendada com sucesso!"); });
+document.addEventListener("DOMContentLoaded", function(){
+
+  const botaoConcluir = document.querySelector("#concluir");
+
+  if(botaoConcluir){
+    botaoConcluir.addEventListener("click", function(event){
+      event.preventDefault();
+      alert("Castração agendada com sucesso!");
+    });
+  }
+
+});
