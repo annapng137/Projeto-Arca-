@@ -688,65 +688,57 @@ footer > p{
         padding:20px;
     }
 }
-/* HERO */
-
-/* PRIMEIRA SECTION COM IMAGEM DE FUNDO */
-
-main section:first-child{
+.hero{
     background:
     linear-gradient(
-        rgba(0, 80, 45, 0.75),
-        rgba(0, 80, 45, 0.75)
+        rgba(0, 80, 45, 0.65),
+        rgba(0, 80, 45, 0.65)
     ),
-    url("/img/cachorro-gato.jpg");
+    url("../img/cachorro-gato.jpg");
 
     background-size: cover;
     background-position: center right;
+    background-repeat: no-repeat;
 
     min-height: 85vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 80px;
+    padding: 100px 80px;
     color: white;
 }
 
-/* TEXTO */
-
-main section:first-child h1{
-    max-width: 550px;
+.hero h1{
+    max-width: 520px;
     font-size: 3rem;
+    font-weight: 700;
 }
 
-main section:first-child p{
-    max-width: 600px;
-    margin-top: 20px;
+.hero p{
+    max-width: 650px;
+    margin-top: 25px;
     margin-bottom: 30px;
 }
 
-/* BOTÕES */
-
-main section:first-child button{
-    padding: 12px 24px;
-
-    border-radius: 8px;
-
-    border: 2px solid white;
-
-    background: white;
-
-    margin-right: 10px;
+.hero-botoes{
+    display: flex;
+    gap: 12px;
 }
 
-main section:first-child button:last-child{
-    background: transparent;
-}
-
-main section:first-child button a{
+.hero-botoes a{
     text-decoration: none;
-    color: inherit;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.botao-claro{
+    background: white;
+    color: #00502d;
+}
+
+.botao-transparente{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
 }
 
 
