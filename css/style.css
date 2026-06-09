@@ -690,65 +690,63 @@ footer > p{
 }
 /* HERO */
 
-.hero{
-    min-height: 85vh;
+/* PRIMEIRA SECTION COM IMAGEM DE FUNDO */
 
+main section:first-child{
     background:
     linear-gradient(
-      rgba(0,70,35,0.75),
-      rgba(0,70,35,0.75)
+        rgba(0, 80, 45, 0.75),
+        rgba(0, 80, 45, 0.75)
     ),
-    url("../img/cachorro-gato.jpg");
+    url("../img/cachorro-e-gato.jpg");
 
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center right;
 
-    color: white;
+    min-height: 85vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    padding: 80px 8%;
-}
-
-.hero h1{
-    font-size: 3rem;
-    max-width: 550px;
-    font-weight: 700;
-}
-
-.hero p{
-    margin-top: 20px;
-    max-width: 600px;
-    font-size: 1.1rem;
-}
-
-.hero button{
-    margin-top: 20px;
-    margin-right: 10px;
-
-    padding: 12px 24px;
-
-    border-radius: 8px;
-    border: none;
-}
-
-.hero button a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.hero button:first-of-type{
-    background: white;
-}
-
-.hero button:last-of-type{
-    background: transparent;
-    border: 2px solid white;
+    padding: 80px;
     color: white;
 }
 
+/* TEXTO */
+
+main section:first-child h1{
+    max-width: 550px;
+    font-size: 3rem;
+}
+
+main section:first-child p{
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* BOTÕES */
+
+main section:first-child button{
+    padding: 12px 24px;
+
+    border-radius: 8px;
+
+    border: 2px solid white;
+
+    background: white;
+
+    margin-right: 10px;
+}
+
+main section:first-child button:last-child{
+    background: transparent;
+}
+
+main section:first-child button a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
