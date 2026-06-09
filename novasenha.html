@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Senha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>ARCA</h2>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="adocao.html">Adoção</a>
+      <a href="resgate.html">Resgate</a>
+      <a href="denuncia.html">Denúncia</a>
+      <a href="castracao.html">Castração</a>
+      <a href="voluntario.html">Voluntariado</a>
+    </nav>
+
+    <button><a href="telalogin.html">Área do Usuário</a></button>
+  </header>
+    <main>
+        <h1>Nova Senha</h1>
+        <p>Crie uma nova senha para sua conta</p>
+
+        <form>
+            <div>
+                <label for="nova-senha">Nova senha</label>
+                <div>
+                    <input id="nova-senha" name="nova-senha" type="password" placeholder="Digite sua nova senha" autocomplete="new-password">
+                    <span>🔒</span>
+                </div>
+            </div>
+
+            <div>
+                <div><span></span></div>
+               
+            </div>
+
+            <div>
+                <label for="confirma-senha">Repita a senha</label>
+                <div>
+                    <input id="confirma-senha" name="confirma-senha" type="password" placeholder="Confirme sua nova senha" autocomplete="new-password">
+                    <span>🔒</span>
+                </div>
+            </div>
+
+            <div>
+                <p>REQUISITOS</p>
+                <div>✓ Mínimo de 8 caracteres</div>
+                <div>✓ Pelo menos uma letra maiúscula</div>
+                <div>✓ Pelo menos um número</div>
+            </div>
+
+            <button type="submit">Confirmar</button>
+            <a href="index.html">Voltar para o login</a>
+        </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

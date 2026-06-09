@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <header>
+    <h2>ARCA</h2>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="adocao.html">Adoção</a>
+      <a href="resgate.html">Resgate</a>
+      <a href="denuncia.html">Denúncia</a>
+      <a href="castracao.html">Castração</a>
+      <a href="voluntario.html">Voluntariado</a>
+    </nav>
+
+    <button><a href="telalogin.html">Área do Usuário</a></button>
+  </header>
+    <main>
+        <section id="adocao">
+            <h1>Adoção</h1>
+
+            <form id="searchForm" action="#" method="get" role="search">
+                <label for="searchInput">Pesquisar:</label>
+                <input type="search" id="searchInput" name="q" placeholder="Nome, espécie ou porte" />
+                <button type="submit">Buscar</button>
+            </form>
+
+            <div id="results" aria-live="polite">
+               
+            </div>
+
+            
+            <div class="filters" role="group" aria-label="Filtros de espécie, idade e status">
+                <button type="button" class="filter-btn" data-filter="all">Todos</button>
+                <button type="button" class="filter-btn" data-filter="cao">Cachorro</button>
+                <button type="button" class="filter-btn" data-filter="gato">Gato</button>
+                <button type="button" class="filter-btn" data-filter="filhote">Filhote</button>
+                <button type="button" class="filter-btn" data-filter="adulto">Adulto</button>
+                <button type="button" class="filter-btn" data-filter="castrado">Castrado</button>
+                <button type="button" class="filter-btn" data-filter="vacinado">Vacinado</button>
+            </div>
+
+     <h1>Animais disponíveis para adoção</h1>
+
+     <div class="notice info" role="note">
+  <p>Todos os animais são vacinados, vermifugados e avaliados por veterinário antes da adoção. O processo é gratuito.</p>
+</div>
+
+<section class="cards-grid" id="cardsGrid">
+  <article class="card" data-especie="cao" data-idade="adulto" data-castrado="sim" data-vacinado="sim">
+    <div class="card-img"><img src="img/thor.webp" alt="Thor"></div>
+    <h3>Thor</h3>
+    <p class="meta">Cão · 4 anos · Médio</p>
+    <div class="badges">
+      <span class="badge castrado">Castrado</span>
+      <span class="badge vacinado">Vacinado</span>
+    </div>
+    <div class="actions">
+      <button class="btn-adotar">Quero Adotar</button>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/max.jpg" alt="Max"></div>
+    <h3>Max</h3>
+    <p>Cachorro · Golden Retriever</p>
+    <p>Adulto · 3 anos</p>
+    <p>Porte Grande</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/luna.jpg" alt="Luna"></div>
+    <h3>Luna</h3>
+    <p>Gato · SRD</p>
+    <p>Filhote · 5 meses</p>
+    <p>Porte Pequeno</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/pipoca.jpg" alt="Pipoca"></div>
+    <h3>Pipoca</h3>
+    <p>Cachorro · SRD</p>
+    <p>Adulto · 4 anos</p>
+    <p>Porte Pequeno</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/mel.jpeg" alt="Mel"></div>
+    <h3>Mel</h3>
+    <p>Gato · SRD</p>
+    <p>Sênior · 9 anos</p>
+    <p>Porte Médio</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/barney.webp" alt="Barney"></div>
+    <h3>Barney</h3>
+    <p>Cachorro · Border Collie</p>
+    <p>Filhote · 2 meses</p>
+    <p>Porte Médio</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card">
+    <div class="card-img"><img src="img/apolo.jpg" alt="Apolo"></div>
+    <h3>Apolo</h3>
+    <p>Gato · Siamês</p>
+    <p>Adulto · 5 anos</p>
+    <p>Porte Médio</p>
+    <button>Tenho interesse</button>
+  </article>
+
+  <article class="card card-alert">
+    <h3>Não encontrou quem procurava?</h3>
+    <p>Muitos outros animais são resgatados diariamente.</p>
+    <p>Cadastre-se para receber alertas.</p>
+    <button>Criar Alerta</button>
+  </article>
+
+</section>
+        </section>
+    </main>
+  <script src="./index.js"></script>
+</body>
+</html>

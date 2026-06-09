@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voluntariado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h2>ARCA</h2>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="adocao.html">Adoção</a>
+      <a href="resgate.html">Resgate</a>
+      <a href="denuncia.html">Denúncia</a>
+      <a href="castracao.html">Castração</a>
+      <a href="voluntario.html">Voluntariado</a>
+    </nav>
+
+    <button><a href="telalogin.html">Área do Usuário</a></button>
+  </header>
+
+  <main>
+    <section>
+      <p>Faça a Diferença</p>
+      <h1>Seja um Voluntário - Junte-se à nossa causa</h1>
+      <p>
+        Sua dedicação pode transformar vidas. Ao se tornar um voluntário da ARCA,
+        você contribui diretamente para a proteção, resgate e bem-estar de centenas
+        de animais que esperam por uma segunda chance.
+      </p>
+    </section>
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+        <label for="cpf">CPF</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" id="nascimento" name="nascimento">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00)00000-0000">
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" name="cep" placeholder="00000-000">
+
+        <label for="rua">Rua</label>
+        <input type="text" id="rua" name="rua" placeholder="Nome do Logradouro">
+
+        <label for="numero">Nº</label>
+        <input type="text" id="numero" name="numero" placeholder="S/N">
+
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Sua Cidade">
+
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+          <option>Selecione o Estado</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Perfil do Voluntário</legend>
+
+        <p>Áreas de Interesse</p>
+        <div class="checkbox-group">
+          <label class="checkbox-inline">
+            <input type="checkbox" name="area" value="resgate">
+            <span>Resgate de Campo</span>
+          </label>
+
+          <label class="checkbox-inline">
+            <input type="checkbox" name="area" value="apoio">
+            <span>Apoio em Feiras</span>
+          </label>
+
+          <label class="checkbox-inline">
+            <input type="checkbox" name="area" value="social">
+            <span>Social Media</span>
+          </label>
+
+          <label class="checkbox-inline">
+            <input type="checkbox" name="area" value="transporte">
+            <span>Transporte Solidário</span>
+          </label>
+        </div>
+
+        <label for="disponibilidade">Disponibilidade</label>
+        <select id="disponibilidade" name="disponibilidade">
+          <option>Dias de semana (Manhã)</option>
+          <option>Dias de semana (Tarde)</option>
+          <option>Finais de semana</option>
+        </select>
+
+        <label for="experiencia">Experiência com Animais</label>
+        <select id="experiencia" name="experiencia">
+          <option>Nenhuma (quero aprender)</option>
+          <option>Pouca experiência</option>
+          <option>Muita experiência</option>
+        </select>
+
+        <label for="motivacao">Por que você deseja ser voluntário da ARCA? (Motivação)</label>
+        <textarea id="motivacao" name="motivacao" rows="5" placeholder="Conte um pouco sobre suas motivações..."></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Upload de Documentos</legend>
+
+        <label for="identidade">Doc. de Identidade (Frente e Verso)</label>
+        <input type="file" id="identidade" name="identidade" accept=".pdf,.jpg,.png">
+
+        <label for="comprovante">Comprovante de Residência</label>
+        <input type="file" id="comprovante" name="comprovante" accept=".pdf,.jpg,.png">
+
+        <label>
+          <input type="checkbox" name="termos">
+          Ao clicar em enviar, você declara que as informações prestadas são verdadeiras e concorda com nossos Termos de Uso e Política de Privacidade.
+        </label>
+
+        <button type="submit">Enviar Cadastro</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <div>
+      <h3>ARCA</h3>
+      <p>Transformando a realidade dos animais domésticos com acolhimento, resgate e adoção responsável.</p>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="adocao.html">Adoção</a></li>
+        <li><a href="resgate.html">Resgate</a></li>
+        <li><a href="castracao.html">Castração</a></li>
+        <li><a href="voluntario.html">Voluntariado</a></li>
+        <li><a href="denuncia.html">Denúncia</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <p>contato@arca.org.br</p>
+      <p>0800 ARCA-HELP</p>
+      <p>São Paulo, SP</p>
+    </div>
+    <div>
+      <h4>Redes Sociais</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+    <p>© 2024 ARCA - Associação de Proteção Animal. Todos os direitos reservados.</p>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>

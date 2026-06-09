@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Usuário - ARCA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>ARCA</h2>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="adocao.html">Adoção</a>
+      <a href="resgate.html">Resgate</a>
+      <a href="denuncia.html">Denúncia</a>
+      <a href="castracao.html">Castração</a>
+      <a href="voluntario.html">Voluntariado</a>
+    </nav>
+
+    <button><a href="telalogin.html">Área do Usuário</a></button>
+  </header>
+
+    <main>
+        <section>
+            <h2>Olá, Mariana!</h2>
+            <p>Bem-vinda à sua central de acompanhamento de pedidos.</p>
+            <p><button type="button" onclick="location.href='telalogin.html'">Novo Pedido</button></p>
+        </section>
+
+        <section>
+            <h3>Estatísticas</h3>
+            <table>
+                <tr>
+                    <th>Total de pedidos</th>
+                    <th>Em análise</th>
+                    <th>Concluídos</th>
+                    <th>Cancelados</th>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>01</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Meus Pedidos</h3>
+            <form>
+                <label for="busca">Filtrar por protocolo: <input id="busca" name="q" type="search"></label>
+            </form>
+
+            <table border="1" cellpadding="6" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Protocolo</th>
+                        <th>Tipo</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#2024-8842</td>
+                        <td>Adoção (Rex)</td>
+                        <td>12 Mar 2024</td>
+                        <td>Em Análise</td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>#2024-8821</td>
+                        <td>Castração</td>
+                        <td>05 Mar 2024</td>
+                        <td>Aprovado</td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>#2024-8799</td>
+                        <td>Denúncia</td>
+                        <td>28 Fev 2024</td>
+                        <td>Concluído</td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>#2024-8745</td>
+                        <td>Resgate</td>
+                        <td>15 Fev 2024</td>
+                        <td>Cancelado</td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Mostrando 1–4 de 12 pedidos</p>
+        </section>
+
+        <section>
+            <h3>Seja um Voluntário</h3>
+            <p>Temos vagas para prestar ajuda e abrigo temporário.</p>
+            <p><a href="#">Saiba Mais</a></p>
+
+            <h3>Dúvidas Frequentes</h3>
+            <p>Como funciona o processo de aprovação de castração? <a href="#">Ver FAQ</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>ARCA</h3>
+            <p>Transformando a realidade dos animais domésticos com acolhimento, resgate e adoção responsável.</p>
+        </div>
+        <div>
+            <h4>Navegação</h4>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="adocao.html">Adoção</a></li>
+                <li><a href="resgate.html">Resgate</a></li>
+                <li><a href="castracao.html">Castração</a></li>
+                <li><a href="voluntario.html">Voluntariado</a></li>
+                <li><a href="denuncia.html">Denúncia</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contato</h4>
+            <p>contato@arca.org.br</p>
+            <p>0800 ARCA-HELP</p>
+            <p>São Paulo, SP</p>
+        </div>
+        <div>
+            <h4>Redes Sociais</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <p>© 2024 ARCA - Associação de Proteção Animal. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

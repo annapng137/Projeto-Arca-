@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>ARCA</h2>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="adocao.html">Adoção</a>
+      <a href="resgate.html">Resgate</a>
+      <a href="denuncia.html">Denúncia</a>
+      <a href="castracao.html">Castração</a>
+      <a href="voluntario.html">Voluntariado</a>
+    </nav>
+
+    <button><a href="telalogin.html">Área do Usuário</a></button>
+  </header>
+
+    <main>
+        <section class="hero-grid">
+            <div class="hero-copy">
+                <h2>⚠️ EMERGÊNCIA? LIGUE 190</h2>
+                <h1>Denuncie Maus-tratos</h1>
+                <p>Sua voz protege quem não pode falar. Garantimos o sigilo absoluto durante todo o processo de apuração da denúncia.</p>
+            </div>
+            <div class="hero-visual">
+                <img class="denuncia-img" src="img/animal recebendo proteção.webp" alt="Imagem de animal recebendo proteção">
+            </div>
+        </section>
+
+        <section class="box-outline">
+            <h2>Como funciona?</h2>
+            <ul>
+                <li>Sua identidade nunca será revelada ao estabelecimento ou à autoridade específica.</li>
+                <li>Relatar com máximo de detalhes possível para facilitar a ação de resgate.</li>
+                <li>Fotos e vídeos são fundamentais como prova visual do abuso.</li>
+            </ul>
+        </section>
+
+        <section>
+            <form>
+                <div>
+                    <h3>Tipos de Ocorrência</h3>
+                    <select name="tipo-ocorrencia">
+                        <option>Selecione uma opção</option>
+                        <option>Abandono</option>
+                        <option>Agressão</option>
+                        <option>Fome/Sede</option>
+                        <option>Falta de Cuidados</option>
+                        <option>Confinamento inadequado</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h3>Endereço Completo</h3>
+                    <input type="text" placeholder="Rua, número, bairro e cidade">
+                </div>
+
+                <div>
+                    <h3>CEP da Local</h3>
+                    <input type="text" placeholder="00000-000">
+                </div>
+
+                <div>
+                    <h3>Descrição das Falhas</h3>
+                    <textarea placeholder="Descreva detalhadamente o que está acontecendo, características do animal, se possível, do agressor." rows="6"></textarea>
+                </div>
+
+                <div>
+                    <h3>Anexar Mídias (Fotos/Vídeos)</h3>
+                    <input type="file" accept="image/*,video/*" multiple>
+                    <p>Clique ou arraste arquivos aqui (PNG, JPG, MP4 somente ZERO e não).</p>
+                </div>
+
+                <div>
+                    <h3>Acompanhamento</h3>
+                    <div>
+                        <p>Após enviar, você receberá um código de acompanhamento para saber com segurança o estado da sua denúncia.</p>
+                        <p>✓ Protocolo gerado no final</p>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="consentimento" name="consentimento">
+                    <label for="consentimento">Direito permanente anônimo. Meus dados de contato (opcionais) serão mantidos em base criptografada e não serão anexados ao processo público.</label>
+                </div>
+
+                <div>
+                    <button type="submit">▶ Enviar Denúncia Sigilosa</button>
+                    <button type="button">Cancelar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>ARCA</h3>
+            <p>Transformando a realidade dos animais domésticos com acolhimento, resgate e adoção responsável.</p>
+        </div>
+        <div>
+            <h4>Navegação</h4>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="adocao.html">Adoção</a></li>
+                <li><a href="resgate.html">Resgate</a></li>
+                <li><a href="castracao.html">Castração</a></li>
+                <li><a href="voluntario.html">Voluntariado</a></li>
+                <li><a href="denuncia.html">Denúncia</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contato</h4>
+            <p>contato@arca.org.br</p>
+            <p>0800 ARCA-HELP</p>
+            <p>São Paulo, SP</p>
+        </div>
+        <div>
+            <h4>Redes Sociais</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <p>© 2024 ARCA - Associação de Proteção Animal. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
