@@ -699,11 +699,12 @@ footer > p{
     url("../img/cachorro-gato.jpg");
 
     background-size: cover;
-    background-position: right center;
+    background-position: center right;
     background-repeat: no-repeat;
 
     min-height: 550px;
     padding: 80px;
+
     color: white;
 }
 
