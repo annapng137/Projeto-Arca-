@@ -400,6 +400,9 @@ label.checkbox-inline{
     min-width:150px;
 }
 
+label.checkbox-inline span{
+}
+
 label.checkbox-inline input[type="checkbox"]{
     width:auto;
     margin:0;
@@ -685,5 +688,7 @@ footer > p{
         padding:20px;
     }
 }
+
+
 
 
