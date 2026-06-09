@@ -189,3 +189,5 @@ document.addEventListener("DOMContentLoaded", function(){
   }
 
 });
+document.addEventListener("DOMContentLoaded", function(){ const botaoProximo = document.querySelector("#proximo"); if(botaoProximo){ botaoProximo.addEventListener("click", function(event){ event.preventDefault(); alert("Indo para o próximo passo..."); }); } });
+
