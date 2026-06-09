@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   const botaoConcluir = document.querySelector("#concluir");
 
-  if(botaoConcluir){
+  if(Concluir){
     botaoConcluir.addEventListener("click", function(event){
       event.preventDefault();
       alert("Castração agendada com sucesso!");
