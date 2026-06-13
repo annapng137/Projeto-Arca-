@@ -736,3 +736,13 @@ td{
         display: block;
     }
 }
+
+/* FOOTER*/
+@media (max-width:768px){
+
+    footer{
+        grid-template-columns:1fr !important;
+    }
+
+}
+
