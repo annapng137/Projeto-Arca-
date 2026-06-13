@@ -741,31 +741,43 @@ td{
 @media (max-width:768px){
 
     footer{
+
         grid-template-columns:1fr !important;
 
-        gap:25px;
+        gap:30px;
 
         padding:35px 20px;
 
-        text-align:center;
     }
 
     footer > div{
-        align-items:center;
+
+        text-align:center;
+
     }
 
     footer ul{
-        padding:0;
+
+        list-style:none !important;
+
+        padding:0 !important;
+
+        margin:0 !important;
+
     }
 
     footer ul li{
-        margin-bottom:8px;
+
+        margin-bottom:10px;
+
     }
 
     footer > p{
-        grid-column:auto !important;
+
+        grid-column:1 / -1 !important;
 
         text-align:center;
+
     }
 
 }
